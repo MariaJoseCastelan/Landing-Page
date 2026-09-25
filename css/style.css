@@ -82,7 +82,7 @@ body {
   transition: var(--transicion-suave);
 }
 
-/* al pasar el cursor o estar activo, se pone lila y subraya */
+/* esto hace q al pasar el cursor se ponga lila y subraye */
 .enlace-navegacion:hover,
 .enlace-navegacion.activo {
   color: var(--color-lila);
@@ -344,14 +344,14 @@ body {
   cursor: pointer;
 }
 
-/* al pasar el cursor, la tarjeta se vuelve azul oscuro y se levanta un poco */
+/* esto hace q al pasar el cursor, la tarjeta se vuelve azul oscuro y se levanta un poco */
 .tarjeta-proceso:hover {
   background-color: var(--color-texto-oscuro);
   transform: translateY(-8px);
   box-shadow: var(--sombra-fuerte);
 }
 
-/* forza a que el texto dentro de la tarjeta se vuelva blanco al hacer hover para que se lea bien */
+/* esto forza a que el texto dentro de la tarjeta se vuelva blanco al hacer hover para que se lea bien */
 .tarjeta-proceso:hover h3,
 .tarjeta-proceso:hover p {
   color: var(--blanco);
@@ -372,7 +372,7 @@ body {
   transition: var(--transicion-suave);
 }
 
-/* se invierten los colores del número al hacer hover */
+/* esto invierte los colores del número al hacer hover */
 .tarjeta-proceso:hover .numero-paso {
   background-color: var(--blanco);
   color: var(--color-texto-oscuro);
